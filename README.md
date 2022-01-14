@@ -1,0 +1,2 @@
+# StackExchange.Redis.Extensions.Autofac.DependencyInjection
+StackExchange.Redis.Extensions.Autofac.DependencyInjection
