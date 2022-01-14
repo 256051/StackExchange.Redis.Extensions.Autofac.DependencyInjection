@@ -10,8 +10,8 @@
     <Title>StackExchange-Redis-Autofac-Extension</Title>
     <Description>An extension for Autofac-IoC to use StackExchange Redis Extension with ease.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/cnkker/StackExchange.Redis.Extensions.Autofac.DependencyInjection.git</PackageProjectUrl>
-    <PackageReleaseNotes>https://github.com/cnkker/StackExchange.Redis.Extensions.Autofac.DependencyInjection/blob/main/changelog.md</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/256051/StackExchange.Redis.Extensions.Autofac.DependencyInjection.git</PackageProjectUrl>
+    <PackageReleaseNotes>https://github.com/256051/StackExchange.Redis.Extensions.Autofac.DependencyInjection/blob/main/changelog.md</PackageReleaseNotes>
     <PackageTags>StackExchange-Redis, Autofac, IoC, Dependency-Injection</PackageTags>
     <PackageIcon>icon.png</PackageIcon>
     <RepositoryType>git</RepositoryType>
