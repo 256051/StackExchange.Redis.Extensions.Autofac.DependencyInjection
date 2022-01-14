@@ -1,0 +1,27 @@
+name: .NET
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 5.0.x
+        
+    - name: Publish package
+      run: |
+        export TAG=${{github.ref_name}}
+        export NUGET_API_URL=https://api.nuget.org/v3/index.json
+        export NUGET_KEY=${{secrets.NUGET_API_KEY}}
+        chmod +x ./publish-packages.sh
+        ./publish-packages.sh
