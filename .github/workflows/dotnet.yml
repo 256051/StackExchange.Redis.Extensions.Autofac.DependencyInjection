@@ -27,5 +27,4 @@ jobs:
       uses: brandedoutcast/publish-nuget@v2.5.2
       with:
         PROJECT_FILE_PATH: src/StackExchange.Redis.Extensions.Autofac.DependencyInjection.csproj
-        TAG_FORMAT: '*'
         NUGET_KEY: ${{secrets.NUGET_API_KEY}}
