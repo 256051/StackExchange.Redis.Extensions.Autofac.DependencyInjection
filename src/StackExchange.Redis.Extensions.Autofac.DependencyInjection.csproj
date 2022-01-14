@@ -8,7 +8,8 @@
     <Copyright>2022©Hai Yu</Copyright>
     <Authors>Hai Yu</Authors>
     <Title>StackExchange-Redis-Autofac-Extension</Title>
-    <Description>An extension for Autofac-IoC to use StackExchange Redis Extension with ease.</Description>
+    <Description>An extension for Autofac-IoC to use StackExchange Redis Extension with ease.
+qq 256051</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/256051/StackExchange.Redis.Extensions.Autofac.DependencyInjection.git</PackageProjectUrl>
     <PackageReleaseNotes>https://github.com/256051/StackExchange.Redis.Extensions.Autofac.DependencyInjection/blob/main/changelog.md</PackageReleaseNotes>
@@ -17,11 +18,19 @@
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>git@github.com:cnkker/StackExchange.Redis.Extensions.Autofac.DependencyInjection.git</RepositoryUrl>
     <EmbedAllSources>true</EmbedAllSources>
+    <PackageIconUrl />
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Autofac" Version="6.3.0" />
     <PackageReference Include="StackExchange.Redis.Extensions.Core" Version="8.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\build\icon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
