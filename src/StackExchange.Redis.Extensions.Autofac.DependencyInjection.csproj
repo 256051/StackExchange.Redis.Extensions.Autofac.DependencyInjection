@@ -19,6 +19,7 @@ qq 256051</Description>
     <RepositoryUrl>git@github.com:cnkker/StackExchange.Redis.Extensions.Autofac.DependencyInjection.git</RepositoryUrl>
     <EmbedAllSources>true</EmbedAllSources>
     <PackageIconUrl />
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
